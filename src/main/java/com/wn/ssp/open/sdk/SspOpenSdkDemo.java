@@ -2,11 +2,8 @@ package com.wn.ssp.open.sdk;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.wn.ssp.open.sdk.exception.ErrorMsg;
 import com.wn.ssp.open.sdk.util.RequestUtil;
 import com.wn.ssp.open.sdk.util.SignUtil;
-
-import java.util.concurrent.TimeUnit;
 
 import static com.wn.ssp.open.sdk.util.RequestUtil.generateRequestBody;
 
@@ -14,7 +11,7 @@ import static com.wn.ssp.open.sdk.util.RequestUtil.generateRequestBody;
  * @author majunjie
  * @date 2022/1/19 10:54
  */
-public class DemoSign {
+public class SspOpenSdkDemo {
 
     public static void main(String[] args) {
         String appKey = "testAppKey";
